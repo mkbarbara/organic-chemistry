@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- page icon -->
+        <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
+
+        <link rel="stylesheet" href="unpkg.com_swiper@7.2.0_swiper-bundle.min.css"/>
+
+        <!-- icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--css-->
+        <link rel="stylesheet" href="main.css">
+
+        <title>Кафедра органической химии</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    О кафедре
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#labs" class="nav__link">
+                                <span>Лаборатории</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#science" class="nav__link">
+                                <span>Исследования</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#teaching" class="nav__link">
+                                <span>Студентам</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#documents" class="nav__link">
+                                <span>Документы</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="download section" id="download">
+                <div class="download__container container">
+                    <h1 class="section__title">О кафедре</h1>
+                    <span class="section__subtitle">Кафедра основана в 1929 г. на базе лаборатории органической и аналитической химии, существовавшей в университете с 1884 г.</span>
+                    <div class="download__cards grid">
+                        <article class="download__card">
+                            <img src="images/history.png" alt="history" class="download__card-image">
+                            <h3 class="download__card-title">История кафедры</h3>
+                            <a href="#" class="button button--flex">Скачать <i class="fa-solid fa-download button__icon"></i></a>
+                        </article>
+                        <article class="download__card">
+                            <img src="images/about.png" alt="about" class="download__card-image">
+                            <h3 class="download__card-title">Буклет о кафедре</h3>
+                            <a href="#" class="button button--flex">Скачать <i class="fa-solid fa-download button__icon"></i></a>
+                        </article>
+                        <article class="download__card">
+                            <img src="images/photos.png" alt="photos" class="download__card-image">
+                            <h3 class="download__card-title">Фотоархив 1940-2000</h3>
+                            <a href="#" class="button button--flex">Скачать <i class="fa-solid fa-download button__icon"></i></a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="administration section" id="administration">
+                <div class="administration__container container swiper">
+                    <h1 class="science__subtitle">Руководство кафедры</h1>
+                    <div class="swiper-wrapper">
+                        <div class="administration__content grid swiper-slide">
+                            <img src="images/Nenajdenko.jpg" alt="Nenajdenko" class="administration__image">
+
+                            <div class="administration__data">
+                                <h3 class="administration__title">Ненайденко Валентин Георгиевич</h3>
+                                <p class="administration__position">Заведующий кафедрой</p>
+                                <p class="administration__desc">профессор, д.х.н.</p>
+                            </div>
+                        </div>
+                        <div class="administration__content grid swiper-slide">
+                            <img src="images/Lukashev.jpg" alt="Lukashev" class="administration__image">
+
+                            <div class="administration__data">
+                                <h3 class="administration__title">Лукашев Николай Вадимович</h3>
+                                <p class="administration__position">Зам. зав. кафедрой по учебной работе</p>
+                                <p class="administration__desc">профессор, д.х.н.</p>
+                            </div>
+                        </div>
+                        <div class="administration__content grid swiper-slide">
+                            <img src="images/Lebedev.png" alt="Lebedev" class="administration__image">
+
+                            <div class="administration__data">
+                                <h3 class="administration__title">Лебедев Альберт Тарасович</h3>
+                                <p class="administration__position">Зам. зав. кафедрой по научной работе</p>
+                                <p class="administration__desc">профессор, д.х.н.</p>
+                            </div>
+                        </div>
+                        <div class="administration__content grid swiper-slide">
+                            <img src="images/Beloglazkina.jpg" alt="Beloglazkina" class="administration__image">
+
+                            <div class="administration__data">
+                                <h3 class="administration__title">Белоглазкина Елена Климовна</h3>
+                                <p class="administration__position">Ученый секретарь кафедры</p>
+                                <p class="administration__desc">профессор, д.х.н.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="fa-solid fa-chevron-right swiper-administration-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="fa-solid fa-chevron-left swiper-administration-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <section class="timeline section" id="timeline">
+                <div class="timeline__container container">
+                    <h1 class="science__subtitle">Кафедрой заведовали</h1>
+                    <div class="timeline__section">
+                        <div class="timeline__content">
+                            <!-- date 1 -->
+                            <div class="timeline__data">
+                                <div>
+                                    <h3 class="timeline__title">1929 - 1938</h3>
+                                    <div class="timeline__name">
+                                        <i class="fa-regular fa-user"></i>
+                                        акад. Н.Д.Зелинский
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                            </div>
+                            <!-- date 2 -->
+                            <div class="timeline__data">
+                                <div></div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="timeline__title">1938 - 1950</h3>
+                                    <div class="timeline__name">
+                                        <i class="fa-regular fa-user"></i>
+                                        акад. С.С.Наметкин
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- date 3 -->
+                            <div class="timeline__data">
+                                <div>
+                                    <h3 class="timeline__title">1950 - 1978</h3>
+                                    <div class="timeline__name">
+                                        <i class="fa-regular fa-user"></i>
+                                        акад. А.Н.Несмеянов
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                            </div>
+                            <!-- date 4 -->
+                            <div class="timeline__data">
+                                <div></div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="timeline__title">1978 - 1994</h3>
+                                    <div class="timeline__name">
+                                        <i class="fa-regular fa-user"></i>
+                                        акад. О.А.Реутов
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- date 5 -->
+                            <div class="timeline__data">
+                                <div>
+                                    <h3 class="timeline__title">1994 - 2014</h3>
+                                    <div class="timeline__name">
+                                        <i class="fa-regular fa-user"></i>
+                                        акад. Н.С.Зефиров
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <span class="timeline__line"></span>
+                                </div>
+                            </div>
+                            <!-- date 6 -->
+                            <div class="timeline__data">
+                                <div></div>
+                                <div>
+                                    <span class="timeline__rounder"></span>
+                                    <!-- <span class="timeline__line"></span> -->
+                                </div>
+                                <div>
+                                    <h3 class="timeline__title">с 2014</h3>
+                                    <div class="timeline__name">
+                                        <i class="fa-regular fa-user"></i>
+                                        профессор, д.х.н. В.Г.Ненайденко
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="labs section" id="labs">
+                <h1 class="section__title">Лаборатории кафедры</h1>
+                <div class="labs__container container grid">
+                    <div class="labs__images">
+                        <div class="labs__orbe"></div>
+                        <div class="labs__image">
+                            <img src="images/lab.jpg" alt="lab">
+                        </div>
+                    </div>
+                    <div class="labs__accordion">
+                        <div class="labs__accordion-item">
+                            <header class="labs__accordion-header">
+                                <h3 class="labs__accordion-title">
+                                    Органического синтеза
+                                </h3>
+                                <div class="labs__accordion-icon">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </header>
+                            <div class="labs__accordion-content">
+                                <h3 class="labs__accordion__position">Заведующий: <span>д.х.н., профессор Валентин Георгиевич Ненайденко</span></h3>
+                                <p class="labs__accordion__email">E-mail: <span>nenajdenko@org.chem.msu.ru</span></p>
+                                <p class="labs__accordion__phone">Телефон <span>+7(495)-939-22-76</span></p>
+                            </div>
+                        </div>
+                        <div class="labs__accordion-item">
+                            <header class="labs__accordion-header">
+                                <h3 class="labs__accordion-title">
+                                    Физической органической химии
+                                </h3>
+                                <div class="labs__accordion-icon">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </header>
+                            <div class="labs__accordion-content">
+                                <h3 class="labs__accordion__position">Заведующий: <span></span></h3>
+                                <p class="labs__accordion__email">E-mail: <span></span></p>
+                                <p class="labs__accordion__phone">Телефон <span></span></p>
+                            </div>
+                        </div>
+                        <div class="labs__accordion-item">
+                            <header class="labs__accordion-header">
+                                <h3 class="labs__accordion-title">
+                                    Элементоорганических соединений
+                                </h3>
+                                <div class="labs__accordion-icon">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </header>
+                            <div class="labs__accordion-content">
+                                <h3 class="labs__accordion__position">Заведующий: <span>академик РАН, профессор Ирина Петровна Белецкая</span></h3>
+                                <p class="labs__accordion__email">E-mail: <span>beletska@org.chem.ru</span></p>
+                                <p class="labs__accordion__phone">Телефон <span>+7(495)-939-36-18</span></p>
+                            </div>
+                        </div>
+                        <div class="labs__accordion-item">
+                            <header class="labs__accordion-header">
+                                <h3 class="labs__accordion-title">
+                                    Координационных металлоорганических соединений
+                                </h3>
+                                <div class="labs__accordion-icon">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </header>
+                            <div class="labs__accordion-content">
+                                <h3 class="labs__accordion__position">Заведующий: <span>д.х.н., профессор Дмитрий Анатольевич Леменовский</span></h3>
+                                <p class="labs__accordion__email">E-mail: <span>dali@org.chem.msu.ru</span></p>
+                                <p class="labs__accordion__phone">Телефон <span>+7(495)-939-12-34</span></p>
+                            </div>
+                        </div>
+                        <div class="labs__accordion-item">
+                            <header class="labs__accordion-header">
+                                <h3 class="labs__accordion-title">
+                                    Биологически активных органических соединений
+                                </h3>
+                                <div class="labs__accordion-icon">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </header>
+                            <div class="labs__accordion-content">
+                                <h3 class="labs__accordion__position">Заведующий: <span>д.х.н., профессор Елена Кимовна Белоглазкина</span></h3>
+                                <p class="labs__accordion__email">E-mail: <span>bel@org.chem.msu.ru</span></p>
+                                <p class="labs__accordion__phone">Телефон <span>+7(495)-939-40-20</span></p>
+                            </div>
+                        </div>
+                        <div class="labs__accordion-item">
+                            <header class="labs__accordion-header">
+                                <h3 class="labs__accordion-title">
+                                    Супрамолекулярной химии и нанотехнологии органических материалов
+                                </h3>
+                                <div class="labs__accordion-icon">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </header>
+                            <div class="labs__accordion-content">
+                                <h3 class="labs__accordion__position">Заведующий: <span>член-корр. РАН, профессор Сергей Пантелеймонович Громов</span></h3>
+                                <p class="labs__accordion__email">E-mail: <span>spgromov@mail.ru</span></p>
+                                <p class="labs__accordion__phone">Телефон <span>+7(495)-939-30-65</span></p>
+                            </div>
+                        </div>
+                        <div class="labs__accordion-item">
+                            <header class="labs__accordion-header">
+                                <h3 class="labs__accordion-title">
+                                    Физико-химических методов анализа строения вещества
+                                </h3>
+                                <div class="labs__accordion-icon">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                            </header>
+                            <div class="labs__accordion-content">
+                                <p class="labs__accordion__position">Заведующий: <span>д.х.н., профессор Лебедев Альберт Тарасович</span></p>
+                                <p class="labs__accordion__email">E-mail: <span>mocehops@yandex.ru</span></p>
+                                <p class="labs__accordion__phone">Телефон <span>+7(495)-939-14-07</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="science section" id="science">
+                <h1 class="section__title">Исследования</h1>
+                <div class="science__container container grid">
+                    <div class="science__work-container">
+                        <h2 class="science__subtitle">Основные направления научной деятельности</h2>
+                        <div class="science__work grid">
+                            <div class="science__work-item">
+                                <div class="science__work-number">1</div>
+                                <div class="science__work-desc">Молекулярный дизайн органических структур и органических реакций, целевой поиск, синтез и тестирование новых практически важных органических соединений</div>
+                            </div>
+                            <div class="science__work-item">
+                                <div class="science__work-number">2</div>
+                                <div class="science__work-desc">Катализ, физикохимия поверхности</div>
+                            </div>
+                            <div class="science__work-item">
+                                <div class="science__work-number">3</div>
+                                <div class="science__work-desc">Элементоорганические соединения в качестве реагентов и катализаторов в синтезе органических и металлоорганических соединений</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="science__projects-container">
+                        <h2 class="science__subtitle">Проекты, выполняемые на кафедре</h2>
+                        <div class="science__projects grid">
+                            <article class="science__project">
+                                <h3 class="science__project-title">РНФ 14-23-00186</h3>
+                                <p class="science__project-desc">Новые подходы к каталитическому асимметрическому синтезу</p>
+                                <p class="science__project-master">акад. Белецкая И.П.</p>
+                            </article>
+                            <article class="science__project">
+                                <h3 class="science__project-title">РHФ 14-13-00083</h3>
+                                <p class="science__project-desc">Фторсодержащие алкены и ацетилены в направленном синтезе новых физиологически активных веществ и материалов</p>
+                                <p class="science__project-master">проф. Ненайденко В.Г.</p>
+                            </article>
+                            <article class="science__project">
+                                <h3 class="science__project-title">РНФ 14-13-00076</h3>
+                                <p class="science__project-desc">Фотоактивные сэндвичевые структуры на основе непредельных соединений</p>
+                                <p class="science__project-master">чл.-корр. РАН Громов С.П.</p>
+                            </article>
+                            <article class="science__project">
+                                <h3 class="science__project-title">РНФ 14-23-00186</h3>
+                                <p class="science__project-desc">Новые полифункциональные изоцианиды для многокомпонентных реакций</p>
+                                <p class="science__project-master">проф. Ненайденко В.Г.</p>
+                            </article>
+                        </div>
+                        <button class="button show-more">Показать еще</button>
+                    </div>
+                    <div class="science__books-container">
+                        <h2 class="science__subtitle">Книги сотрудников кафедры</h2>
+                        <div class="science__books grid">
+                            <article class="science__book">
+                                <div class="science__book-image-container">
+                                    <img src="images/book1.jpg" alt="Задачи по органической химии с решениями" class="science__book-image">
+                                </div>
+                                <div class="science__book-desc">
+                                    <h3 class="science__book-name">Задачи по органической химии с решениями (4-е издание)</h3>
+                                    <p class="science__book-authors">А. Л. Курц, М. В. Ливанцов, А. В. Чепраков, Л. И. Ливанцова, Г. С. Зайцева, М. М. Кабачник.</p>
+                                    <p class="science__book-info">4-е издание, Изд. Бином. М., 2014</p>
+                                    <a href="#" class="button small-button">Скачать <i class="fa-solid fa-download button__icon"></i></a>
+                                </div>
+                            </article>
+                            <article class="science__book">
+                                <div class="science__book-image-container">
+                                    <img src="images/book2.jpg" alt="Химия ароматических гетероциклических соединений" class="science__book-image">
+                                </div>
+                                <div class="science__book-desc">
+                                    <h3 class="science__book-name">Химия ароматических гетероциклических соединений</h3>
+                                    <p class="science__book-authors">M.А. Юровская</p>
+                                    <p class="science__book-info">Изд. Бином, М., 2015, 208 стр.</p>
+                                    <a href="#" class="button small-button">Скачать <i class="fa-solid fa-download button__icon"></i></a>
+                                </div>
+                            </article>
+                            <article class="science__book">
+                                <div class="science__book-image-container">
+                                    <img src="images/book3.jpg" alt="Практикум по органической химии (под ред. акад. Н.С. Зефирова)" class="science__book-image">
+                                </div>
+                                <div class="science__book-desc">
+                                    <h3 class="science__book-name">Практикум по органической химии (под ред. акад. Н.С. Зефирова)</h3>
+                                    <p class="science__book-authors">В.И. Теренин, М.В. Ливанцов, Л.И. Ливанцова, Е.Д. Матвеева, П.В. Ивченко, И.Э. Нифантьев</p>
+                                    <p class="science__book-info">Изд. Бином. М., 2010, 568 стр.</p>
+                                    <a href="#" class="button small-button">Скачать <i class="fa-solid fa-download button__icon"></i></a>
+                                </div>
+                            </article>
+                        </div>
+                        <button class="button show-more">Показать еще</button>
+                    </div>
+                </div>
+            </section>
+            <section class="documents section" id="documents">
+                <h1 class="section__title">Документы</h1>
+                <div class="documents__container container grid">
+                    <div class="documents__item">
+                        <div class="documents__icon">
+                            <i class="fa-solid fa-file"></i>
+                        </div>
+                        <div class="documents__desc">
+                            <div class="documents__item-title">
+                                К сведению дипломников
+                            </div>
+                            <div class="documents__item-size">
+                                1.17 mb
+                            </div>
+                        </div>  
+                        <a href="#" class="documents__download">
+                            <!-- <span class="documents__download-title">Скачать</span> -->
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                    <div class="documents__item">
+                        <div class="documents__icon">
+                            <i class="fa-solid fa-file"></i>
+                        </div>
+                        <div class="documents__desc">
+                            <div class="documents__item-title">
+                                К сведению руководителей дипломных работ
+                            </div>
+                            <div class="documents__item-size">
+                                2.1 mb
+                            </div>
+                        </div>  
+                        <a href="#" class="documents__download">
+                            <!-- <span class="documents__download-title">Скачать</span> -->
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                    <div class="documents__item">
+                        <div class="documents__icon">
+                            <i class="fa-solid fa-file"></i>
+                        </div>
+                        <div class="documents__desc">
+                            <div class="documents__item-title">
+                                К сведению рецензентов дипломных работ
+                            </div>
+                            <div class="documents__item-size">
+                                1.78 mb
+                            </div>
+                        </div>  
+                        <a href="#" class="documents__download">
+                            <!-- <span class="documents__download-title">Скачать</span> -->
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                    <div class="documents__item">
+                        <div class="documents__icon">
+                            <i class="fa-solid fa-file"></i>
+                        </div>
+                        <div class="documents__desc">
+                            <div class="documents__item-title">
+                                Программа вступительного экзамена в аспирантуру
+                            </div>
+                            <div class="documents__item-size">
+                                3.66 mb
+                            </div>
+                        </div>  
+                        <a href="#" class="documents__download">
+                            <!-- <span class="documents__download-title">Скачать</span> -->
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                    <div class="documents__item">
+                        <div class="documents__icon">
+                            <i class="fa-solid fa-file"></i>
+                        </div>
+                        <div class="documents__desc">
+                            <div class="documents__item-title">
+                                Порядок прохождение конкурсного отбора на замещение должности
+                            </div>
+                            <div class="documents__item-size">
+                                1.09 mb
+                            </div>
+                        </div>  
+                        <a href="#" class="documents__download">
+                            <!-- <span class="documents__download-title">Скачать</span> -->
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="students section" id="students">
+                <h1 class="section__title">Студентам</h1>
+                <div class="students__container container grid">
+                    <div class="students__item grid">
+                        <h2 class="students__title">Курсы</h2>
+                        <div class="students__courses grid">
+                            <div class="students__courses-item grid">
+                                <header class="students__courses-item-header">
+                                    <h3 class="students__courses-item-title">
+                                        Органическая химия для 3 курса химического факультета
+                                    </h3>
+                                    <div class="students__courses-item-icon">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </header>
+                                <div class="students__courses-subitem">
+                                    <ul class="students__courses-subitem-data">
+                                        <li class="students__courses-subitem-content">
+                                            <span class="students__courses-subitem-content-title">301-309, 313 группы</span>
+                                            <p class="students__courses-subitem-content-lector">
+                                                Лектор:
+                                                <span>профессор Н.В. Лукашев</span>
+                                            </p>
+                                            <div class="students__courses-subitem-content-buttons">
+                                                <a href="#" class="button small-button">Программа курса <i class="fa-solid fa-download button__icon"></i></a>
+                                                <a href="#" class="button small-button">Билеты к экзамену <i class="fa-solid fa-download button__icon"></i></a>
+                                            </div>
+                                        </li>
+                                        <li class="students__courses-subitem-content">
+                                            <span class="students__courses-subitem-content-title">310 группа</span>
+                                            <p class="students__courses-subitem-content-lector">
+                                                Лектор:
+                                                <span>доцент А.Г. Мажуга</span>
+                                            </p>
+                                            <div class="students__courses-subitem-content-buttons">
+                                                <a href="#" class="button small-button">Программа курса <i class="fa-solid fa-download button__icon"></i></a>
+                                                <a href="#" class="button small-button">Билеты к экзамену <i class="fa-solid fa-download button__icon"></i></a>
+                                            </div>
+                                        </li>
+                                        <li class="students__courses-subitem-content">
+                                            <span class="students__courses-subitem-content-title">311 группа</span>
+                                            <p class="students__courses-subitem-content-lector">
+                                                Лектор:
+                                                <span>профессор Ю.А. Устынюк</span>
+                                            </p>
+                                            <div class="students__courses-subitem-content-buttons">
+                                                <a href="#" class="button small-button">Программа курса <i class="fa-solid fa-download button__icon"></i></a>
+                                                <a href="#" class="button small-button">Билеты к экзамену <i class="fa-solid fa-download button__icon"></i></a>
+                                            </div>
+                                        </li>
+                                        <li class="students__courses-subitem-content">
+                                            <span class="students__courses-subitem-content-title">312 группа</span>
+                                            <p class="students__courses-subitem-content-lector">
+                                                Лектор:
+                                                <span>профессор В.Г. Ненайденко</span>
+                                            </p>
+                                            <div class="students__courses-subitem-content-buttons">
+                                                <a href="#" class="button small-button">Программа курса <i class="fa-solid fa-download button__icon"></i></a>
+                                                <a href="#" class="button small-button">Билеты к экзамену <i class="fa-solid fa-download button__icon"></i></a>
+                                            </div>
+                                        </li>
+                                        <div class="students__courses-info">
+                                            <div class="students__courses-info-icon">
+                                                <i class="fa-solid fa-exclamation"></i>
+                                            </div>
+                                            <p class="students__courses-info-title">В течение семестра ведется рейтинг каждого студента, включающий оценки за учебные коллоквиумы и общекурсовые контрольные работы. По итогам рейтинга в конце 6-го учебного семестра студенты, набравшие необходимую сумму баллов и принимавшие участие в олимпиаде по органическчой химии, могут получить оценку «5» без сдачи экзамена.</p>
+                                        </div>
+                                        <div class="students__courses-info">
+                                            <div class="students__courses-info-icon">
+                                                <i class="fa-solid fa-exclamation"></i>
+                                            </div>
+                                            <p class="students__courses-info-title">В мае каждого года традиционно проводится олимпиада по органической химии, к участию в которой приглашаются студенты 3 курса химического факультета, завершающие изучение общего курса органической химии, а также все желающие студенты младших курсов.</p>
+                                        </div>
+                                        <div class="students__courses-info">
+                                            <div class="students__courses-info-icon">
+                                                <i class="fa-solid fa-exclamation"></i>
+                                            </div>
+                                            <p class="students__courses-info-title">В конце 6-го семестра студенты защищают курсовую работу по органической химии, приставляющую собой трехстадийный синтез органического вещества с подтверждением структуры полученного соединения комплексом физико-химических методов исследования.</p>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="students__courses-item grid">
+                                <header class="students__courses-item-header">
+                                    <h3 class="students__courses-item-title">
+                                        Органическая химия для других факультетов
+                                    </h3>
+                                    <div class="students__courses-item-icon">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </header>
+                                <div class="students__courses-subitem">
+                                    <ul class="students__courses-subitem-data">
+                                        <li class="students__courses-subitem-content">
+                                            <span class="students__courses-subitem-content-title">Факультет наук о материалах</span>
+                                            <p class="students__courses-subitem-content-lector">
+                                                Лектор:
+                                                <span>профессор М.А. Юровская</span>
+                                            </p>
+                                            <div class="students__courses-subitem-content-buttons">
+                                                <a href="#" class="button small-button">Программа курса <i class="fa-solid fa-download button__icon"></i></a>
+                                                <a href="#" class="button small-button">Билеты к экзамену <i class="fa-solid fa-download button__icon"></i></a>
+                                            </div>
+                                            <div class="students__courses-info">
+                                                <div class="students__courses-info-icon">
+                                                    <i class="fa-solid fa-exclamation"></i>
+                                                </div>
+                                                <p class="students__courses-info-title">В течение семестра ведется рейтинг каждого студента, включающий оценки за учебные коллоквиумы и общекурсовые контрольные работы. По итогам рейтинга в конце 6-го учебного семестра студенты, набравшие необходимую сумму баллов и принимавшие участие в олимпиаде по органическчой химии, могут получить оценку «5» без сдачи экзамена.</p>
+                                            </div>
+                                            <div class="students__courses-info">
+                                                <div class="students__courses-info-icon">
+                                                    <i class="fa-solid fa-exclamation"></i>
+                                                </div>
+                                                <p class="students__courses-info-title">В конце 6-го семестра студенты защищают курсовую работу по органической химии, приставляющую собой трехстадийный синтез органического вещества с подтверждением структуры полученного соединения комплексом физико-химических методов исследования.</p>
+                                            </div>
+                                        </li>
+                                        <li class="students__courses-subitem-content">
+                                            <span class="students__courses-subitem-content-title">Факультет фундаментальной физико-химической инженерии</span>
+                                            <p class="students__courses-subitem-content-lector">
+                                                Лекторы:
+                                                <span>профессор Е.К. Белоглазкина, профессор В.И. Теренин</span>
+                                            </p>
+                                            <div class="students__courses-subitem-content-buttons">
+                                                <a href="#" class="button small-button">Программа курса <i class="fa-solid fa-download button__icon"></i></a>
+                                                <a href="#" class="button small-button">Билеты к экзамену <i class="fa-solid fa-download button__icon"></i></a>
+                                            </div>
+                                        </li>
+                                        <li class="students__courses-subitem-content">
+                                            <span class="students__courses-subitem-content-title">Биологический факультет</span>
+                                            <p class="students__courses-subitem-content-lector">
+                                                Лектор:
+                                                <span>профессор В.И. Теренин</span>
+                                            </p>
+                                            <div class="students__courses-subitem-content-buttons">
+                                                <a href="#" class="button small-button">Программа курса <i class="fa-solid fa-download button__icon"></i></a>
+                                                <a href="#" class="button small-button">Билеты к экзамену <i class="fa-solid fa-download button__icon"></i></a>
+                                            </div>
+                                        </li>
+                                        <li class="students__courses-subitem-content">
+                                            <span class="students__courses-subitem-content-title">Физический факультет</span>
+                                            <p class="students__courses-subitem-content-lector">
+                                                Лектор:
+                                                <span>профессор Н.В. Зык</span>
+                                            </p>
+                                            <div class="students__courses-subitem-content-buttons">
+                                                <a href="#" class="button small-button">Программа курса <i class="fa-solid fa-download button__icon"></i></a>
+                                                <a href="#" class="button small-button">Вопросы к экзамену <i class="fa-solid fa-download button__icon"></i></a>
+                                            </div>
+                                        </li>
+                                        <li class="students__courses-subitem-content">
+                                            <span class="students__courses-subitem-content-title">Геологический факультет</span>
+                                            <p class="students__courses-subitem-content-lector">
+                                                Лектор:
+                                                <span>доцент М.В. Ливанцов</span>
+                                            </p>
+                                            <div class="students__courses-subitem-content-buttons">
+                                                <a href="#" class="button small-button">Программа курса <i class="fa-solid fa-download button__icon"></i></a>
+                                                <a href="#" class="button small-button">Вопросы к экзамену <i class="fa-solid fa-download button__icon"></i></a>
+                                            </div>
+                                        </li>
+                                        <li class="students__courses-subitem-content">
+                                            <span class="students__courses-subitem-content-title">Факультет биоинженерии и биоинформатики</span>
+                                            <p class="students__courses-subitem-content-lector">
+                                                Лектор:
+                                                <span>профессор И.Э. Нифантьев</span>
+                                            </p>
+                                            <div class="students__courses-subitem-content-buttons">
+                                                <a href="#" class="button small-button">Программа курса <i class="fa-solid fa-download button__icon"></i></a>
+                                                <a href="#" class="button small-button">Вопросы к экзамену <i class="fa-solid fa-download button__icon"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="students__courses-item grid">
+                                <header class="students__courses-item-header">
+                                    <h3 class="students__courses-item-title">
+                                        Биоорганическая химия для факультета фундаментальной медицины
+                                    </h3>
+                                    <div class="students__courses-item-icon">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </header>
+                                <div class="students__courses-subitem">
+                                    <ul class="students__courses-subitem-data">
+                                        <li class="students__courses-subitem-content one-item">
+                                            <p class="students__courses-subitem-content-lector">
+                                                Лектор:
+                                                <span>профессор М.А. Юровская</span>
+                                            </p>
+                                            <div class="students__courses-subitem-content-buttons">
+                                                <a href="#" class="button small-button">Программа курса <i class="fa-solid fa-download button__icon"></i></a>
+                                                <a href="#" class="button small-button">Билеты к зачёту <i class="fa-solid fa-download button__icon"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="students__courses-item grid">
+                                <header class="students__courses-item-header">
+                                    <h3 class="students__courses-item-title">
+                                        МФК «Химия, человек и окружающая среда»
+                                    </h3>
+                                    <div class="students__courses-item-icon">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </header>
+                                <div class="students__courses-subitem">
+                                    <ul class="students__courses-subitem-data">
+                                        <li class="students__courses-subitem-content one-item">
+                                            <p class="students__courses-subitem-content-lector">
+                                                Лектор:
+                                                <span>профессор М.А. Юровская</span>
+                                            </p>
+                                            <div class="students__courses-subitem-content-buttons">
+                                                <a href="#" class="button small-button">Программа курса <i class="fa-solid fa-download button__icon"></i></a>
+                                                <a href="#" class="button small-button">Билеты к зачёту <i class="fa-solid fa-download button__icon"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="students__courses-item grid">
+                                <header class="students__courses-item-header">
+                                    <h3 class="students__courses-item-title">
+                                        Общий практикум для студентов 3 курса химического факультета
+                                    </h3>
+                                    <div class="students__courses-item-icon">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </header>
+                                <div class="students__courses-subitem">
+                                    <div class="students__courses-info">
+                                        <div class="students__courses-info-icon">
+                                            <i class="fa-solid fa-exclamation"></i>
+                                        </div>
+                                        <p class="students__courses-info-title">Описание задач практикума можно найти в книге: В.И. Теренин, М.В. Ливанцов, Л.И. Ливанцова, Е.Д. Матвеева, П.В. Ивченко, И.Э. НИфантьев Практикум по органической химии (под ред. акад. Н.С. Зефирова). Изд. Бином. М., 2010, 568 стр.</p>
+                                    </div>
+                                    <div class="students__courses-pract grid">
+                                        <div class="students__courses-pract-data">
+                                            <span class="students__courses-pract-title">Задачи 5 семестра</span>
+                                            <div class="students__courses-pract-content">
+                                                <div class="students__courses-pract-item">
+                                                    <div class="students__courses-image-container">
+                                                        <img src="images/first.jpg" alt="about" class="students__courses-pract-image">
+                                                    </div>
+                                                    <span class="students__courses-pract-desc">Вводный концентр (перекристаллизация, перегонка, хроматография)</span>
+                                                </div>
+                                                <div class="students__courses-pract-item">
+                                                    <div class="students__courses-image-container">
+                                                        <img src="images/second.png" alt="about" class="students__courses-pract-image">
+                                                    </div>
+                                                    <span class="students__courses-pract-desc">Углеводороды (алканы, алкены, алкины, диены)</span>
+                                                </div>
+                                                <div class="students__courses-pract-item">
+                                                    <div class="students__courses-image-container">
+                                                        <img src="images/third.png" alt="about" class="students__courses-pract-image">
+                                                    </div>
+                                                    <span class="students__courses-pract-desc">Нуклеофильное замещение и элиминирование</span>
+                                                </div>
+                                                <div class="students__courses-pract-item">
+                                                    <div class="students__courses-image-container">
+                                                        <img src="images/forth.png" alt="about" class="students__courses-pract-image">
+                                                    </div>
+                                                    <span class="students__courses-pract-desc">Альдегиды, кетоны</span>
+                                                </div>
+                                                <div class="students__courses-pract-item">
+                                                    <div class="students__courses-image-container">
+                                                        <img src="images/fifth.jpg" alt="about" class="students__courses-pract-image">
+                                                    </div>
+                                                    <span class="students__courses-pract-desc">Карбоновые кислоты</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="students__courses-pract-data">
+                                            <span class="pract__line"></span>
+                                        </div>
+                                        <div class="students__courses-pract-data">
+                                            <span class="students__courses-pract-title">Задачи 6 семестра</span>
+                                            <div class="students__courses-pract-content">
+                                                <div class="students__courses-pract-item">
+                                                    <div class="students__courses-image-container">
+                                                        <img src="images/sixth.jpg" alt="about" class="students__courses-pract-image">
+                                                    </div>
+                                                    <span class="students__courses-pract-desc">Ароматические углеводороды</span>
+                                                </div>
+                                                <div class="students__courses-pract-item">
+                                                    <div class="students__courses-image-container">
+                                                        <img src="images/seventh.png" alt="about" class="students__courses-pract-image">
+                                                    </div>
+                                                    <span class="students__courses-pract-desc">Амины, нитро-, диазо-соединения</span>
+                                                </div>
+                                                <div class="students__courses-pract-item">
+                                                    <div class="students__courses-image-container">
+                                                        <img src="images/eigth.jpg" alt="about" class="students__courses-pract-image">
+                                                    </div>
+                                                    <span class="students__courses-pract-desc">Фенолы, хиноны</span>
+                                                </div>
+                                                <div class="students__courses-pract-item">
+                                                    <div class="students__courses-image-container">
+                                                        <img src="images/ninth.png" alt="about" class="students__courses-pract-image">
+                                                    </div>
+                                                    <span class="students__courses-pract-desc">Алициклы и гетероциклы</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="unpkg.com_swiper@7.2.0_swiper-bundle.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
